@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Julius Melgar — Web / Software Developer. Projects, skills, and certifications.">
+  <title>Julius Melgar — Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="site-header">
+    <a href="#home" class="logo">Julius Melgar</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="section hero">
+      <p class="eyebrow">Web / Software Developer</p>
+      <h1>Hi, I'm Julius Melgar.</h1>
+      <p class="hero-sub">I’m a developer interested in building practical software solutions through web development, application development, and computer vision. I enjoy learning new technologies, developing projects, and turning ideas into functional applications.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#about" class="btn btn-outline">About Me</a>
+      </div>
+    </section>
+
+    <!-- My Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <p class="section-desc">Projects that I have worked on.</p>
+
+      <div class="project-list">
+        <article class="project-card">
+          <h3>HOPE: Human Object Pose Estimation Using YOLOv8-Pose Model On Raspberry Pi 5 For Rescue Operation</h3>
+          <p>My capstone project that uses computer vision (YOLOv8-Pose) model and Raspberry Pi 5 to detect and estimate human body poses. Designed to support rescue operations by helping identify and locate people in challenging environments.</p>
+          <ul class="tag-list">
+            <li>Python</li><li>TensorFlow</li><li>OpenCV</li><li>Websocket</li><li>HTML5</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/meJackal/HOPE-Human-Object-and-Pose-Estimation" target="_blank" rel="noopener noreferrer">Source code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Request Approval System</h3>
+          <p>A Laravel-based web application that streamlines the process of submitting and approving requests. Users can send requests to their assigned supervisors, who can approve or reject them through the web application or via email.</p>
+          <ul class="tag-list">
+            <li>PHP</li><li>Laravel Framework</li><li>Blade</li><li>CSS</li><li>Bootstrap</li><li>JavaScript</li><li>MySQL</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/meJackal/SignatureApproval" target="_blank" rel="noopener noreferrer">Source code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Paper - Plastic Classifier</h3>
+          <p>A computer vision project that classifies images as either paper or plastic. The system demonstrates the use of image classification techniques to identify and categorize plastic and paper materials.</p>
+          <ul class="tag-list">
+            <li>Python</li><li>TensorFlow</li><li>OpenCV</li><li>NumPy</li><li>Pandas</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/meJackal/Paper_Plastic_Classifier" target="_blank" rel="noopener noreferrer">Source code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Travel Blog Website</h3>
+          <p>A project showcasing information about a selected country, including destinations, attractions, and travel-related content. Developed to demonstrate fundamental skills in HTML, CSS, and JavaScript.</p>
+          <ul class="tag-list">
+            <li>HTML5</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/meJackal/Travel-Blog" target="_blank" rel="noopener noreferrer">Source code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>8BitGame</h3>
+          <p>A 2D game project developed using C# and WPF. The project demonstrates desktop application development, game logic, user interaction, and interface design within the .NET framework.</p>
+          <ul class="tag-list">
+            <li>C#</li><li>WPF</li><li>.NET Framework</li><li>XAML</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/meJackal/8BitGame" target="_blank" rel="noopener noreferrer">Source code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Patient Record Management System</h3>
+          <p>A management system project designed to organize and maintain patient records efficiently. It provides functionality for storing, managing, and retrieving patient information while demonstrating fundamental concepts of database-driven application development.</p>
+          <ul class="tag-list">
+            <li>C#</li><li>WPF</li><li>MySQL</li><li>.NET Framework</li><li>XAML</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/meJackal/2Y_2324_FinalsProject" target="_blank" rel="noopener noreferrer">Source code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <p class="section-desc">Tools and Technologies I have worked with.</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-block">
+          <h3>Languages</h3>
+          <ul class="skill-list">
+            <li>Python</li>
+            <li>C#</li>
+            <li>PHP</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+
+        <div class="skill-block">
+          <h3>Frameworks & Libraries</h3>
+          <ul class="skill-list">
+            <li>Laravel</li>
+            <li>WPF</li>
+            <li>Bootstrap</li>
+            <li>YOLOv8</li>
+          </ul>
+        </div>
+
+        <div class="skill-block">
+          <h3>Databases</h3>
+          <ul class="skill-list">
+            <li>MySQL</li>
+            <li>Microsoft SQL Server</li>
+          </ul>
+        </div>
+
+        <div class="skill-block">
+          <h3>Tools</h3>
+          <ul class="skill-list">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Visual Studio</li>
+            <li>Visual Studio Code</li>
+            <li>phpMyAdmin</li>
+            <li>SQL Server Management Studio</li>
+            <li>Raspberry Pi</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+      <h2>Certifications</h2>
+      <p class="section-desc">My Certifications and Credentials I have acquired.</p>
+
+      <ul class="cert-list">
+        <li class="cert-item">
+          <div>
+            <h3>Microsoft Certified: Azure Fundamentals</h3>
+            <p class="cert-meta">Microsoft — September 19, 2025</p>
+          </div>
+          <a href="https://www.credly.com/badges/7d1e62d3-6a6a-4fe5-a6eb-d86f3f9c5185" target="_blank" rel="noopener noreferrer">View</a>
+        </li>
+        <li class="cert-item">
+          <div>
+            <h3>Microsoft Certified: Azure AI Fundamentals</h3>
+            <p class="cert-meta">Microsoft — June 24, 2026</p>
+          </div>
+          <a href="https://www.credly.com/badges/82748ea0-c74d-4290-8fc3-98bc2e100142" target="_blank" rel="noopener noreferrer">View</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p class="section-desc"></p>
+      <div class="about-grid">
+        <div class="about-photo" aria-hidden="true">JM</div>
+        <div class="about-text">
+          <p>I'm Julius Ryan G. Melgar a Information Technology graduate and aspiring web / software developer interested in building practical software solutions.</p>
+          <p>My projects have allowed me to explore web development, desktop applications, and databases. I enjoy learning through hands-on development and using different technologies to turn ideas into functional applications.</p>
+          <p>I'm continuously working to strengthen my programming skills, gain practical experience, and grow as a developer.</p>
+          <div class="about-facts">
+            <div class="fact"><span class="fact-label">Location</span><span>Las Piñas City, Philippines</span></div>
+            <div class="fact"><span class="fact-label">Contact Number</span><span>+63 939 972 8110</span></div>
+            <div class="fact"><span class="fact-label">Email</span><span>juliusryanmelgar@gmail.com</span></div>
+          </div>
+          <div class="hero-actions">
+            <a href="MELGAR_Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Download résumé">Download Résumé</a>
+            <a href="https://github.com/meJackal" class="btn btn-outline" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/julius-melgar-b7b577371" class="btn btn-outline" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© 2026 Julius Melgar. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
